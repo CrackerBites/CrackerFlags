@@ -9,6 +9,8 @@ These are the flags i spent countless hours on creating or enduring lots of serv
 
 ### These Fastflags downbelow are specifically made for [Graalvm](https://www.graalvm.org/downloads/#).
 > [!NOTE]
+> Keep in mind these flags are specifically made for java 21 not 17! you will lose on performance using it on 17 instead.
+>
 > These are recommended for server that have 4+ gigs allocated ram otherwise i recommend openj9 for servers below!
 ```json
 {
