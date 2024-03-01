@@ -5,14 +5,14 @@ These are the flags i spent countless hours on creating or enduring lots of serv
 > [!CAUTION]
 > **I am not responsible for anything that would impact your server in an negative way or even dataloss in general when you use these flags you agree that its all on your own responsibilty!**
 >
-> *Also these flags are specifically made for spigot and all its forks not tested on fabric or forge or any other server software i wont waste my time doing so because i dont see any point on running an modded server anyways.*
+> *Also these flags are specifically made for spigot it also includeds flags that spigot only supports and all its forks not tested on fabric or forge or any other server software i wont waste my time doing so because i dont see any point on running an modded server anyways.*
 
 ***Supported server softwares:***
 - [x] Spigot and all of its forks!
 - [ ] *everything else is not tested*
 
 ### These Fastflags downbelow are specifically made for [Graalvm](https://www.graalvm.org/downloads/#) this is what i personally use and what will probably get updated the most.
-> [!NOTE]
+> [!IMPORTANT]
 > Keep in mind these flags are specifically made for java 21 not 17! You will lose on performance using it on 17 instead.
 >
 > These are recommended for server that have 4+ gigs allocated ram otherwise i recommend openj9 below!
@@ -25,4 +25,5 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:MaxGCPauseMillis=130 -X
 ```java
 java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+IdleTuningGcOnIdle -XX:+UseAggressiveHeapShrink -XX:-OmitStackTraceInFastThrow -XX:+UseFastAccessorMethods -Xshareclasses:allowClasspaths -XX:+AlwaysPreTouch -XX:+ClassRelationshipVerifier -Xshareclasses:cacheDir=./cache -Xaot -XX:+UseCompressedOops -XX:ObjectAlignmentInBytes=256 -Xshareclasses -XX:SharedCacheHardLimit=800M -Xscmx800M -Xtune:virtualized -XX:InitialTenuringThreshold=5 -Dlog4j2.formatMsgNoLookups=true -XX:-DisableExplicitGC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=6 -Djava.net.preferIPv4Stack=true -XX:-ParallelRefProcEnabled -XX:+UseTLAB -Xmn200M -Xmx1G -Xms201M -XX:ParallelGCThreads=2 -XX:ConcGCThreads=1 --add-modules=jdk.incubator.vector -jar server.jar --nogui
 ```
-### There will be coming Fastflags for java openjdk improved on aikar an etil flags 
+> [!NOTE]
+> There will be coming Fastflags for java openjdk improved on aikar and etil flags i dont know when and there is no confirmed date because i dont use this myself!
