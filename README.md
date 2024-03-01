@@ -1,5 +1,5 @@
 # CrackerFlags
-"Fastflags, created by CrackerBites, aim to ensure maximum performance wherever possible!"
+Fastflags, created by CrackerBites, aim to ensure maximum performance wherever possible!
 
 These are the flags I've spent way too many hours creating, enduring lots of server crashes for no reason. Now, I'm publicly sharing them specifically for [Servcity](https://servcity.org/) customers.
 > [!CAUTION]
