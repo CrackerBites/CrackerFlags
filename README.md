@@ -1,7 +1,7 @@
 # CrackerFlags
 "Fastflags, created by CrackerBites, aim to ensure maximum performance wherever possible!"
 
-These are the flags i spent countless hours on creating or enduring lots of server crashes for no reason and now im publicly sharing them specifically for [Servcity](https://servcity.org/) customers.
+These are the flags I've spent way too many hours creating, enduring lots of server crashes for no reason. Now, I'm publicly sharing them specifically for [Servcity](https://servcity.org/) customers.
 > [!CAUTION]
 > **I am not responsible for any negative impact on your server or data loss resulting from the use of these flags. By using these flags, you agree that all consequences are your own responsibility.**
 >
