@@ -7,6 +7,10 @@ These are the flags i spent countless hours on creating or enduring lots of serv
 >
 > *Also these flags are specifically made for spigot and all its forks not tested on fabric or forge or any other server software i wont waste my time doing so because i dont see any point on running an modded server anyways.*
 
+***Supported server softwares:***
+- [x] Spigot and all of its forks!
+- [ ] *everything else is not tested*
+
 ### These Fastflags downbelow are specifically made for [Graalvm](https://www.graalvm.org/downloads/#) this is what i personally use and what will probably get updated the most.
 > [!NOTE]
 > Keep in mind these flags are specifically made for java 21 not 17! You will lose on performance using it on 17 instead.
@@ -17,7 +21,8 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:MaxGCPauseMillis=130 -X
 ```
 ### These Fastflags downbelow are specifically made for [Openj9](https://github.com/eclipse-openj9/openj9).
 > [!CAUTION]
-> Openj9 is very weird behaving i do not recommend it for big servers with lots of plugins try using graalvm instead and another thing worth noting it is very slow compared to graalvm and its alternatives i only recommend Openj9 to servers with way too high ram usage or survival servers that are under 4 gig of ram allocated openj9 could have lots of incompatibilities in my own testing and experience as i have used this as my main java for a while till i switched over to graalvm because of incompatibilties its known to struggle with plugins like [LPX](https://builtbybit.com/resources/lpx-antipacketexploit.15709/) and [no-chat-report](https://modrinth.com/mod/no-chat-reports/versions)
+> Openj9 is very weird behaving i do not recommend it for big servers with lots of plugins try using graalvm instead and another thing worth noting it is very slow compared to graalvm and its alternatives i only recommend Openj9 to servers with way too high ram usage or survival servers that are under 4 gig of ram allocated openj9 could have lots of incompatibilities in my own testing and experience as i have used this as my main java for a while till i switched over to graalvm because of incompatibilties its known to struggle with plugins like [LPX](https://builtbybit.com/resources/lpx-antipacketexploit.15709/) and [no-chat-report](https://modrinth.com/mod/no-chat-reports/versions).
 ```java
 java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+IdleTuningGcOnIdle -XX:+UseAggressiveHeapShrink -XX:-OmitStackTraceInFastThrow -XX:+UseFastAccessorMethods -Xshareclasses:allowClasspaths -XX:+AlwaysPreTouch -XX:+ClassRelationshipVerifier -Xshareclasses:cacheDir=./cache -Xaot -XX:+UseCompressedOops -XX:ObjectAlignmentInBytes=256 -Xshareclasses -XX:SharedCacheHardLimit=800M -Xscmx800M -Xtune:virtualized -XX:InitialTenuringThreshold=5 -Dlog4j2.formatMsgNoLookups=true -XX:-DisableExplicitGC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=6 -Djava.net.preferIPv4Stack=true -XX:-ParallelRefProcEnabled -XX:+UseTLAB -Xmn200M -Xmx1G -Xms201M -XX:ParallelGCThreads=2 -XX:ConcGCThreads=1 --add-modules=jdk.incubator.vector -jar server.jar --nogui
 ```
+### There will be coming Fastflags for java openjdk improved on aikar an etil flags 
