@@ -19,4 +19,7 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:MaxGCPauseMillis=130 -X
 ### These Fastflags downbelow are specifically made for [Openj9](https://github.com/eclipse-openj9/openj9).
 > [!CAUTION]
 > Openj9 is very weird behaving i do not recommend it for big servers with lots of plugins try using graalvm instead and another thing worth noting it is very slow compared to graalvm and its alternatives i only recommend Openj9 to servers with way too high ram usage or survival servers that are under 4 gig of ram allocated openj9 could have lots of incompatibilities in my own testing and experience as i have used this as my main java for a while till i switched over to graalvm because of incompatibilties its known to struggle with plugins like [LPX](https://builtbybit.com/resources/lpx-antipacketexploit.15709/) and [no-chat-report](https://modrinth.com/mod/no-chat-reports/versions)
-
+```json
+{
+java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+IdleTuningGcOnIdle -XX:+UseAggressiveHeapShrink -XX:-OmitStackTraceInFastThrow -XX:+UseFastAccessorMethods -Xshareclasses:allowClasspaths -XX:+AlwaysPreTouch -XX:+ClassRelationshipVerifier -Xshareclasses:cacheDir=./cache -Xaot -XX:+UseCompressedOops -XX:ObjectAlignmentInBytes=256 -Xshareclasses -XX:SharedCacheHardLimit=800M -Xscmx800M -Xtune:virtualized -XX:InitialTenuringThreshold=5 -Dlog4j2.formatMsgNoLookups=true -XX:-DisableExplicitGC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=6 -Djava.net.preferIPv4Stack=true -XX:-ParallelRefProcEnabled -XX:+UseTLAB -Xmn200M -Xmx1G -Xms201M -XX:ParallelGCThreads=2 -XX:ConcGCThreads=1 --add-modules=jdk.incubator.vector -jar server.jar --nogui}
+```
