@@ -5,7 +5,7 @@ These are the flags i spent countless hours on creating or enduring lots of serv
 > [!CAUTION]
 > **I am not responsible for anything that would impact your server in an negative way or even dataloss in general when you use these flags you agree that its all on your own responsibilty!**
 
-### These are Graalvm Fastflags which i personally use and probably would get updated the most often
+### These are Graalvm Fastflags which i personally use and probably would get updated the most often.
 > [!NOTE]
 > These are recommended for server that have 4+ gigs allocated ram otherwise i recommend openj9 for servers below!
 ```json
