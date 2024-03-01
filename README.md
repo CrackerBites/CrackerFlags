@@ -1,2 +1,2 @@
 # CrackerFlags
-Fastflags made by CrackerCites ensuring max performance 
+Fastflags made by CrackerBites ensuring max performance whrre its possible.
