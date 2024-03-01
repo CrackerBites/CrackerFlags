@@ -7,7 +7,7 @@ These are the flags i spent countless hours on creating or enduring lots of serv
 >
 > *Also these flags are specifically made for spigot and all its forks not tested on fabric or forge or any other server software i wont waste my time doing so because i dont see any point on running an modded server anyways.*
 
-### These are specifically made for Graalvm 21 and for spigot and all its forks .
+### These Fastflags downbelow are specifically made for [Graalvm](https://www.graalvm.org/downloads/#).
 > [!NOTE]
 > These are recommended for server that have 4+ gigs allocated ram otherwise i recommend openj9 for servers below!
 ```json
