@@ -5,7 +5,7 @@ These are the flags i spent countless hours on creating or enduring lots of serv
 > [!CAUTION]
 > **I am not responsible for anything that would impact your server in an negative way or even dataloss in general when you use these flags you agree that its all on your own responsibilty!**
 >
-> *Also these flags are specifically made for spigot it also includeds flags that spigot only supports and all its forks not tested on fabric or forge or any other server software i wont waste my time doing so because i dont see any point on running an modded server anyways.*
+> *i wont be explaining what each fastflag does if you want to know do your own research.*
 
 ***Supported server softwares:***
 - [x] Spigot and all of its forks!
