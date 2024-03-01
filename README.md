@@ -14,7 +14,7 @@ These are the flags I've spent way too many hours creating, enduring lots of ser
 
 ### These Fastflags downbelow are specifically made for [Graalvm](https://www.graalvm.org/downloads/#) this is what i personally use and what will probably get updated the most.
 > [!IMPORTANT]
-> "Keep in mind that these flags are specifically designed for Java 21, not 17. You may experience a loss in performance if used with Java 17 instead.".
+> Keep in mind that these flags are specifically designed for Java 21, not 17. You may experience a loss in performance if used with Java 17 instead.
 >
 > These are recommended for server that have 4+ gigs allocated RAM otherwise i recommend [OpenJ9](https://github.com/CrackerBites/CrackerFlags?tab=readme-ov-file#these-fastflags-downbelow-are-specifically-made-for-openj9) below!
 ```java
