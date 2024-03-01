@@ -7,9 +7,9 @@ These are the flags i spent countless hours on creating or enduring lots of serv
 >
 > *i wont be explaining what each fastflag does if you want to know do your own research.*
 
-***Supported server softwares:***
+ **Supported server jars:**
 - [x] Spigot and all of its forks!
-- [ ] *everything else is not tested*
+*everything else is not tested and probably wont get ever by myself atleast as i dont see any reason to run modded servers.*
 
 ### These Fastflags downbelow are specifically made for [Graalvm](https://www.graalvm.org/downloads/#) this is what i personally use and what will probably get updated the most.
 > [!IMPORTANT]
