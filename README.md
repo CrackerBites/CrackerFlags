@@ -10,7 +10,7 @@ These are the flags i spent countless hours on creating or enduring lots of serv
  **Supported server jars:**
 - [x] Spigot and all of its forks!
 
-*everything else is not tested and probably wont get ever by me atleast as i dont see any reason to run modded servers.*
+*everything else is not tested and probably wont as i dont see any reason to run modded servers.*
 
 ### These Fastflags downbelow are specifically made for [Graalvm](https://www.graalvm.org/downloads/#) this is what i personally use and what will probably get updated the most.
 > [!IMPORTANT]
