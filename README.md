@@ -4,7 +4,8 @@ Fastflags made by CrackerBites ensuring max performance where its possible.
 These are the flags i spent countless hours on creating or enduring lots of server crashes for no reason and now im publicly sharing them specifically for [Servcity](https://servcity.org/) customers.
 > [!CAUTION]
 > **I am not responsible for anything that would impact your server in an negative way or even dataloss in general when you use these flags you agree that its all on your own responsibilty!**
-> *also these flags are specifically made for spigot and all its forks not tested on fabric or forge or any other server software i wont waste my time doing so because i dont see any point on running an modded server anyways*
+>
+> *Also these flags are specifically made for spigot and all its forks not tested on fabric or forge or any other server software i wont waste my time doing so because i dont see any point on running an modded server anyways.*
 
 ### These are specifically made for Graalvm 21 and for spigot and all its forks .
 > [!NOTE]
