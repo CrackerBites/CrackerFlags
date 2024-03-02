@@ -46,6 +46,8 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 # Optimization Guide
 > [!CAUTION]
 > **THIS IS AN WIP = WORK IN PROGRESS**
-
-
-
+## Server softwares
+i personally recommend the following:
+- [Purpur](https://purpurmc.org/)
+- [Leaf](https://github.com/Winds-Studio/Leaf)
+- [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)
