@@ -62,11 +62,13 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 
 **View distance:**
 `Recommended value: 7`
+
 *this doesnt matter when ur chunks are preloaded by chunky or any other plugin then just put it on whatever you want and also this changes allot of the gameplay and could annoy your players so choose wisely otherwise stick with 12.*
 ![](https://github.com/CrackerBites/CrackerFlags/blob/main/Preview%201.gif)
 
 **Simulation distance:**
 `Recommended value: 4`
+
 *i recommend having this usually being half ur render distance*
 ![](https://github.com/CrackerBites/CrackerFlags/blob/main/Preview%202.0.gif)
 
