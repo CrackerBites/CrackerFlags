@@ -83,4 +83,4 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 - villagers: 16
 - flying-monsters: 48
 ```
-*Dont make these values way too low they can break mob farms or even make mobs unresponsive it just tells the server when the mobs should do anything*
+*Dont make these values way too low they can break mob farms or even make mobs unresponsive it just tells the server when the mobs should do anything.*
