@@ -76,11 +76,25 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 
 **ticks-per:** 
 ```java
-- animals: 16
-- monsters: 24
-- misc: 8
-- water: 8
-- villagers: 16
-- flying-monsters: 48
+Good starting values:
+
+- monster-spawns: 10
+- animal-spawns: 400
+- water-spawns: 400
+- water-ambient-spawns: 400
+- water-underground-creature-spawns: 400
+- axolotl-spawns: 400
+- ambient-spawns: 400
 ```
 *Dont make these values way too low they can break mob farms or even make mobs unresponsive it just tells the server when the mobs should do anything.*
+
+**Spawn limits:**
+```java
+- monsters: 20
+- animals: 5
+- water-animals: 2
+- water-ambient: 2
+- water-underground-creature: 3
+- axolotls: 3
+- ambient: 1
+```
