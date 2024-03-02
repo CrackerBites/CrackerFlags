@@ -30,7 +30,7 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+IdleTuningGcOnIdle -XX:+UseAggressi
 > I recommend removing the following `--modules=jdk.incubator.vector` if you dont use a fork of pufferfish or pufferfish itself otherwise its useless having it there and also `-DIReallyKnowWhatIAmDoingISwear` this is an spigot only flag remove it if you want to get notified if you are using an old build this skips the checks for a faster startup this also applies for [Graalvm](https://github.com/CrackerBites/CrackerFlags/blob/main/README.md#these-fastflags-downbelow-are-specifically-made-for-graalvm-this-is-what-i-personally-use-and-what-will-probably-get-updated-the-most).
 ### Fastflags for any other java version downbelow.
 > [!IMPORTANT]
-> these fastflags downbelow are etil flags i recommend these over aikar flags also they are a little bit modified by me there isnt much to improve on
+> These Fastflags below are Etil flags. I recommend these over Aikar flags, which are slightly modified by me. There isn't much to improve on they use the G1GC garbage collector. Some people swear by Shenandoah GC or ZGC, but in my own research, they perform better on the client than on the server, and they have more drawbacks, only beneficial for zero or less pauses..
 
 **These downbelow are recommended for higher less than 12 gig allocated RAM.**
 ```java
