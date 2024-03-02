@@ -47,7 +47,7 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 > [!CAUTION]
 > **THIS IS AN WIP = WORK IN PROGRESS**
 ## Server softwares
-**i personally recommend the following:**
+**I personally recommend the following:**
 - [Purpur](https://purpurmc.org/)
 - [Leaf](https://github.com/Winds-Studio/Leaf)
 - [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)
@@ -71,4 +71,16 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 
 *i recommend having this usually being half ur render distance*
 ![](https://github.com/CrackerBites/CrackerFlags/blob/main/Preview%202.0.gif)
+
+#### Bukkit.yml
+
+**ticks-per:**
+`Recommended value: 
+
+- animals: 16
+- monsters: 24
+- misc: 8
+- water: 8
+- villagers: 16
+- flying-monsters: 48`
 
