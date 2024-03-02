@@ -51,7 +51,7 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 - [Purpur](https://purpurmc.org/)
 - [Leaf](https://github.com/Winds-Studio/Leaf)
 - [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)
-  *i use Leaf myself personally as its the most optimised of the bunch.*
 
+  *i use Leaf myself personally as its the most optimised of the bunch.*
 > [!IMPORTANT]
 > Do not use spigot or bukkit i even recommend staying away from paper because purpur and pufferfish are way better alternatives with the same functionality or even more especially in purpur's case.
