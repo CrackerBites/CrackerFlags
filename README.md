@@ -75,12 +75,12 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 #### Bukkit.yml
 
 **ticks-per:**
-`Recommended value: 
-
+Recommended value: 
+```java
 - animals: 16
 - monsters: 24
 - misc: 8
 - water: 8
 - villagers: 16
-- flying-monsters: 48`
-
+- flying-monsters: 48
+```
