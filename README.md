@@ -88,6 +88,7 @@ Good starting values:
 ```
 *Dont make these values way too low they can break mob farms or even make mobs unresponsive it just tells the server when the mobs should do anything.*
 ![](https://github.com/CrackerBites/CrackerFlags/blob/main/Preview%203.gif)
+
 **Spawn limits:**
 ```java
 - monsters: 20
