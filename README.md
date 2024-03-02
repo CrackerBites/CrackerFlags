@@ -3,14 +3,14 @@ Fastflags, created by CrackerBites, aim to ensure maximum performance wherever p
 
 These are the flags I've spent way too many hours creating, enduring lots of server crashes for no reason. Now, I'm publicly sharing them specifically for [Servcity](https://servcity.org/) customers.
 > [!CAUTION]
-> **I am not responsible for any negative impact on your server or data loss resulting from the use of these flags. By using these flags, you agree that all consequences are your own responsibility.**
+> **I am not responsible for any negative impact on your server or data loss resulting from the use of these flags. By using these flags or applying my optimisations, you agree that all consequences are your own responsibility.**
 >
 > *I won't be explaining what each fastflag does. If you want to know, please do your own research.*
 
  **Supported server jars:**
 - [x] Spigot and all of its forks!
 
-*Everything else is untested and likely won't be, as I don't see any reason to run modded servers.*
+*This applies to the GraalVM Fastflags and OpenJ9. The Etil flags should work fine regardless of what you are using. As for OpenJ9 and GraalVM, everything else is untested and likely won't be, as I don't see any reason to run modded servers.*
 
 ### These Fastflags downbelow are specifically made for [Graalvm](https://www.graalvm.org/downloads/#) this is what i personally use and what will probably get updated the most.
 > [!IMPORTANT]
@@ -42,3 +42,9 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 ```
 > [!NOTE]
 > I recommend removing the following `--modules=jdk.incubator.vector` if you dont use a fork of pufferfish or pufferfish itself otherwise its useless having it there and also `-DIReallyKnowWhatIAmDoingISwear` this is an spigot only flag remove it if you want to get notified if you are using an old build this skips the checks for a faster startup this is the same for the previous flags.
+
+# Optimization Guide
+> [!CAUTION]
+> **THIS IS AN WIP = WORK IN PROGRESS**
+
+
