@@ -55,3 +55,6 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 *i use Leaf myself personally as its the most optimised of the bunch.*
 > [!IMPORTANT]
 > Do not use spigot or bukkit i even recommend staying away from paper because purpur and pufferfish are way better alternatives with the same functionality or even more especially in purpur's case.
+
+### Config settings
+#### server.properties
