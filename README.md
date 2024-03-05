@@ -1,4 +1,4 @@
-# CrackerFlags & Optimization Guide
+# CrackerFlags
 Fastflags, created by CrackerBites, aim to ensure maximum performance wherever possible!
 
 These are the flags I've spent way too many hours creating, enduring lots of server crashes for no reason. Now, I'm publicly sharing them specifically for [Servcity](https://servcity.org/) customers.
@@ -43,9 +43,8 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 > [!NOTE]
 > I recommend removing the following `--modules=jdk.incubator.vector` if you dont use a fork of pufferfish or pufferfish itself otherwise its useless having it there and also `-DIReallyKnowWhatIAmDoingISwear` this is an spigot only flag remove it if you want to get notified if you are using an old build this skips the checks for a faster startup this is the same for the previous flags.
 
-# Small optimization tips!
-> [!CAUTION]
-> **THIS IS AN WIP = WORK IN PROGRESS**
+# Worth menntioning.
+
 ## Server softwares
 **I personally recommend the following:**
 - [Purpur](https://purpurmc.org/)
@@ -62,3 +61,5 @@ Recommended links and my sources
 - [brucethemoose](https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks)
 - [OpenJ9 -X](https://eclipse.dev/openj9/docs/x_jvm_commands/) [OpenJ9 -XX](https://eclipse.dev/openj9/docs/xx_jvm_commands/)
 - [Etil flags](https://github.com/etil2jz/etil-minecraft-flags)
+*if you need help with optimization ping me in [servcity discord!](https://discord.gg/servcity)
+*i have way more sources btw but i failed to remember them all*
