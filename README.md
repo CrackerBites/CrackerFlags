@@ -43,7 +43,7 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 > [!NOTE]
 > I recommend removing the following `--modules=jdk.incubator.vector` if you dont use a fork of pufferfish or pufferfish itself otherwise its useless having it there and also `-DIReallyKnowWhatIAmDoingISwear` this is an spigot only flag remove it if you want to get notified if you are using an old build this skips the checks for a faster startup this is the same for the previous flags.
 
-# Optimization Guide
+# Small optimization tips!
 > [!CAUTION]
 > **THIS IS AN WIP = WORK IN PROGRESS**
 ## Server softwares
@@ -56,46 +56,9 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 > [!IMPORTANT]
 > Do not use spigot or bukkit i even recommend staying away from paper because purpur and pufferfish are way better alternatives with the same functionality or even more especially in purpur's case.
 
-### Config settings
-
-#### server.properties
-
-**View distance:**
-`Recommended value: 7`
-
-*this doesnt matter when ur chunks are preloaded by chunky or any other plugin then just put it on whatever you want and also this changes allot of the gameplay and could annoy your players so choose wisely otherwise stick with 12.*
-![](https://github.com/CrackerBites/CrackerFlags/blob/main/Preview%201.gif)
-
-**Simulation distance:**
-`Recommended value: 4`
-
-*i recommend having this usually being half ur render distance*
-![](https://github.com/CrackerBites/CrackerFlags/blob/main/Preview%202.0.gif)
-
-#### Bukkit.yml
-
-**ticks-per:** 
-```java
-Good starting values:
-
-- monster-spawns: 10
-- animal-spawns: 400
-- water-spawns: 400
-- water-ambient-spawns: 400
-- water-underground-creature-spawns: 400
-- axolotl-spawns: 400
-- ambient-spawns: 400
-```
-*Dont make these values way too low they can break mob farms or even make mobs unresponsive.*
-![](https://github.com/CrackerBites/CrackerFlags/blob/main/Preview%203.gif)
-
-**Spawn limits:**
-```java
-- monsters: 20
-- animals: 5
-- water-animals: 2
-- water-ambient: 2
-- water-underground-creature: 3
-- axolotls: 3
-- ambient: 1
-```
+Recommended links and my sources
+- [paperchan](https://paper-chan.moe/paper-optimization/#Introduction)
+- [YouHaveTrouble](https://github.com/YouHaveTrouble/minecraft-optimization)
+- [brucethemoose](https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks)
+- [OpenJ9 -X](https://eclipse.dev/openj9/docs/x_jvm_commands/) [OpenJ9 -XX](https://eclipse.dev/openj9/docs/xx_jvm_commands/)
+- [Etil flags](https://github.com/etil2jz/etil-minecraft-flags)
