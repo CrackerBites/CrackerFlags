@@ -3,7 +3,7 @@ Fastflags, created by CrackerBites, aim to ensure maximum performance wherever p
 
 These are the flags I've spent way too many hours creating, enduring lots of server crashes for no reason. Now, I'm publicly sharing them specifically for [Servcity](https://servcity.org/) customers.
 > [!CAUTION]
-> **I am not responsible for any negative impact on your server or data loss resulting from the use of these flags. By using these flags or applying my optimisations, you agree that all consequences are your own responsibility.**
+> **I am not responsible for any negative impact on your server or data loss resulting from the use of these flags. By using these flags, you agree that all consequences are your own responsibility.**
 >
 > *I won't be explaining what each fastflag does. If you want to know, please do your own research.*
 
@@ -54,6 +54,8 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 *i use Leaf myself personally as its the most optimised of the bunch.*
 > [!IMPORTANT]
 > Do not use spigot or bukkit i even recommend staying away from paper because purpur and pufferfish are way better alternatives with the same functionality or even more especially in purpur's case.
+
+*worth noting when u are using leaf please convert your world to linear it would more likely halve ur disk usage [Here are the tools to do so!](https://github.com/xymb-endcrystalme/LinearRegionFileFormatTools) ;)
 
 Recommended links and my sources
 - [paperchan](https://paper-chan.moe/paper-optimization/#Introduction)
