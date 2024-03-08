@@ -55,7 +55,7 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 > [!IMPORTANT]
 > Do not use spigot or bukkit i even recommend staying away from paper because purpur and pufferfish are way better alternatives with the same functionality or even more especially in purpur's case.
 
-*worth noting when u are using leaf please convert your world to linear it would more likely halve ur disk usage [Here are the tools to do so!](https://github.com/xymb-endcrystalme/LinearRegionFileFormatTools) ;)
+*worth noting when u are using leaf please convert your world to linear it would more likely halve ur disk usage [Here are the tools to do so!](https://github.com/xymb-endcrystalme/LinearRegionFileFormatTools)* ;)
 
 Recommended links and my sources
 - [paperchan](https://paper-chan.moe/paper-optimization/#Introduction)
