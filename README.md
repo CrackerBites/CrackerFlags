@@ -26,7 +26,7 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:MaxGCPauseMillis=130 -X
 ```java
 java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+IdleTuningGcOnIdle -XX:+UseAggressiveHeapShrink -XX:-OmitStackTraceInFastThrow -XX:+UseFastAccessorMethods -Xshareclasses:allowClasspaths -XX:+AlwaysPreTouch -XX:+ClassRelationshipVerifier -Xshareclasses:cacheDir=./cache -Xaot -XX:+UseCompressedOops -XX:ObjectAlignmentInBytes=256 -Xshareclasses -XX:SharedCacheHardLimit=800M -Xscmx800M -Xtune:virtualized -XX:InitialTenuringThreshold=5 -Dlog4j2.formatMsgNoLookups=true -XX:-DisableExplicitGC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=6 -Djava.net.preferIPv4Stack=true -XX:-ParallelRefProcEnabled -XX:+UseTLAB -Xmn200M -Xmx1G -Xms201M -XX:ParallelGCThreads=2 -XX:ConcGCThreads=1 -Xaggressive -DIReallyKnowWhatIAmDoingISwear --add-modules=jdk.incubator.vector -jar server.jar --nogui
 ```
-***These fastflags are specifically made for [velocity](https://papermc.io/software/velocity) proxy paired with [Openj9](https://github.com/eclipse-openj9/openj9)!
+**These fastflags are specifically made for [velocity](https://papermc.io/software/velocity) proxy paired with [Openj9](https://github.com/eclipse-openj9/openj9)!**
 ```java
 java -Xms128M -XX:MaxRAMPercentage=95 -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:MaxInlineLevel=15 -XX:+IdleTuningGcOnIdle -XX:+UseAggressiveHeapShrink -XX:-OmitStackTraceInFastThrow -XX:+UseFastAccessorMethods -Xshareclasses:allowClasspaths -Xaggressive -XX:+AlwaysPreTouch -XX:+UseTLAB -XX:+ClassRelationshipVerifier -Djava.net.preferIPv4Stack=true -Dlog4j2.formatMsgNoLookups=true -XX:+UseFastUnorderedTimeStamps -Xtune:virtualized -XX:-DisableExplicitGC -jar server.ja
 ```
