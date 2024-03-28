@@ -47,7 +47,7 @@ java -Xms128M -XX:MaxRAMPercentage=95.0 -XX:+UseG1GC -XX:+ParallelRefProcEnabled
 > [!NOTE]
 > I recommend removing the following `--modules=jdk.incubator.vector` if you dont use a fork of pufferfish or pufferfish itself otherwise its useless having it there and also `-DIReallyKnowWhatIAmDoingISwear` this is an spigot only flag remove it if you want to get notified if you are using an old build this skips the checks for a faster startup this is the same for the previous flags.
 
-# Worth menntioning.
+# Worth mentioning.
 
 ## Ram management -Xms -Xmx
 **Set your -Xms -Xmx at the same value unused ram is BAD ram**
